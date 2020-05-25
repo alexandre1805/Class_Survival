@@ -1,0 +1,260 @@
+﻿
+body{
+	padding-left: 100px;
+	padding-right: 100px;
+	background-image: url("tableau.jpg");
+	background-size: 100%  100% ;
+	background-attachment:fixed;
+    marging-bottom: 50px;
+	color : white;
+}
+/*================================================*/
+/*diaporama*/
+.diaporama1{
+ width: 275px;
+ height: 275px;
+ border: 5px solid #333;
+ background-repeat: no-repeat;
+
+ position: relative;
+ animation-name: diapo1;
+ animation-duration: 17s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+
+
+@keyframes diapo1{
+ 0%{background-image: url("image15.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image2.png");background-size: 100%  100% ;}
+ 70%{background-image: url("classe.png");background-size: 100%  100% ;}
+ 100%{background-image: url("image4.png");background-size: 100%  100% ;}
+ /*=================================================================*/
+}
+.diaporama2{
+ width: 275px;
+ height: 275px;
+ border: 5px solid #333;
+ background-repeat: no-repeat;
+
+ position: relative;
+ animation-name: diapo2;
+ animation-duration: 20s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+
+
+@keyframes diapo2{
+ 0%{background-image: url("image12.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image3.png");background-size: 100%  100% ;}
+ 70%{background-image: url("image1.png");background-size: 100%  100% ;}
+ 100%{background-image: url("map.png");background-size: 100%  100% ;}
+ }
+
+ .diaporama3{
+ width: 275px;
+ height: 275px;
+ border: 5px solid #333;
+ background-repeat: no-repeat;
+
+ position: relative;
+ animation-name: diapo3;
+ animation-duration: 13s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+
+
+@keyframes diapo3{
+ 0%{background-image: url("image11.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image7.png");background-size: 100%  100% ;}
+ 70%{background-image: url("image5.png");background-size: 100%  100% ;}
+ 100%{background-image: url("logo_progaddict2.jpg");background-size: 100%  100% ;}
+ }
+
+ .diaporama4{
+ width: 275px;
+ height: 275px;
+ border: 5px solid #333;
+ background-repeat: no-repeat;
+
+ position: relative;
+ animation-name: diapo4;
+ animation-duration: 15s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+
+
+@keyframes diapo4{
+ 0%{background-image: url("image6.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image9.png");background-size: 100%  100% ;}
+ 70%{background-image: url("image14.png");background-size: 100%  100% ;}
+ 100%{background-image: url("image17.png");background-size: 100%  100% ;}
+ }
+
+ .diaporama5{
+ width: 275px;
+ height: 275px;
+ border: 5px solid #333;
+ background-repeat: no-repeat;
+
+ position: relative;
+ animation-name: diapo5;
+ animation-duration: 18s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+
+
+@keyframes diapo5{
+ 0%{background-image: url("image16.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image13.png");background-size: 100%  100% ;}
+ 70%{background-image: url("image8.png");background-size: 100%  100% ;}
+ 100%{background-image: url("image10.png");background-size: 100%  100% ;}
+ }
+
+.diaporama6{
+ width: 275px;
+ height: 275px;
+ border: 5px solid #333;
+ background-repeat: no-repeat;
+
+ position: relative;
+ animation-name: diapo6;
+ animation-duration: 9s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+
+
+@keyframes diapo6{
+ 0%{background-image: url("blender.jpg");background-size: 100%  100% ;}
+ 40%{background-image: url("github.jpg");background-size: 100%  100% ;}
+ 70%{background-image: url("overleaf.jpg");background-size: 100%  100% ;}
+ 100%{background-image: url("logo_progaddict2.jpg");background-size: 100%  100% ;}
+}
+
+.dropdownmenu,
+.dropdownmenu ul { /* Pour les sous-menus */
+list-style-type: none;
+border: 50px solid grey;
+margin: -18px;
+padding: 0px;
+}
+.dropdownmenu ul {
+display: none;
+}
+.dropdownmenu li {
+position: relative;
+}
+.dropdownmenu a {
+display: block;
+width: 120px;
+height: 30px;
+line-height: 30px;
+padding: 3px 10px;
+text-align: center;
+}
+.dropdownmenu li:hover ul {
+display: block ;
+position: absolute;
+top: 36px;
+left: 0px;
+z-index: 100;
+}
+/* Gestion des couleurs */
+.dropdownmenu li {
+  background-color: rgb(192, 192, 192);
+}
+ /* Couleur d'arriere-plan du menu */
+.dropdownmenu li a {
+  color: red; /* Couleur du texte du menu */
+}
+.dropdownmenu li:hover {
+  background-color: #000; /* Couleur d'arriere-plan du menu au survol */ }
+.dropdownmenu li:hover a {
+  color: #fff; /* Couleur du texte du menu au survol */
+}
+.dropdownmenu ul li {
+  background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
+}
+.dropdownmenu ul li:hover {
+  background-color: #000; /* Couleur d'arriere-plan des sous-menu au survol */ }
+.dropdownmenu ul li a {
+  color: #666; /* Couleur du texte des sous-menu */ }
+.dropdownmenu ul li:hover a {
+  color: #f00; /* Couleur du texte des sous-menu au survol */
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;
+ width:100px;
+ background-color:#6495ED;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ }
+BODY{font-family: cursive, Helvetica, sans-serif; }
+/*============================================================*/
+/*partie statique*/
+#static {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  width: 437px;
+  height:   375px;
+  margin-top: -2.5em;
+  margin-right: 10px;
+}
+#static2 {
+  position: fixed;
+  right: 0;
+  top: 98%;
+  width: 4em;
+  margin-top: -2.5em;
+}
+/*============================================================*/
+.image { margin-right:110px; }/*Espacer les images avec la class image de 100px*/
+.download{margin-right:100px;}
+.download2{margin-right:100px;}
+.contact1{margin-right:140px;}
+.contact2{margin-right:100px;}
+
+
+a, a:visited {
+    /* Les liens "au repos" et déjà visités antérieurement */
+    color: #D8D8D8; /* couleur blanche */
+}
+a:hover, a:focus, a:active {
+    /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+    color: #B40404;
+}
+.liencontact{font-size:93%;}
+.presleft{float:left;}
+.presright{float:right}
