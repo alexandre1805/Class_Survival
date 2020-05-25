@@ -49,7 +49,7 @@ body{
 
 @keyframes diapo2{
  0%{background-image: url("image12.png");background-size: 100%  100% ;}
- 40%{background-image: url("image3.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image23.png");background-size: 100%  100% ;}
  70%{background-image: url("image1.png");background-size: 100%  100% ;}
  100%{background-image: url("map.png");background-size: 100%  100% ;}
  }
@@ -136,10 +136,10 @@ body{
 
 
 @keyframes diapo6{
- 0%{background-image: url("blender.jpg");background-size: 100%  100% ;}
- 40%{background-image: url("github.jpg");background-size: 100%  100% ;}
- 70%{background-image: url("overleaf.jpg");background-size: 100%  100% ;}
- 100%{background-image: url("logo_progaddict2.jpg");background-size: 100%  100% ;}
+ 0%{background-image: url("image20.png");background-size: 100%  100% ;}
+ 40%{background-image: url("image21.png");background-size: 100%  100% ;}
+ 70%{background-image: url("image22.png");background-size: 100%  100% ;}
+ 100%{background-image: url("image3.png");background-size: 100%  100% ;}
 }
 
 .dropdownmenu,
